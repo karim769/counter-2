@@ -1,6 +1,6 @@
 :root{
 
-    --main-color:;
+    --main-color:hsl(277, 64%, 61%);
     --main-raduis:0.7em;
 }
 
@@ -53,11 +53,11 @@ main{
     width: 100%;
     border-top-left-radius: var(--main-raduis);
     border-top-right-radius: var(--main-raduis);
+    filter: brightness(0.4) sepia(98%) hue-rotate(240deg) saturate(4.5);
+
 }
 
-/* this will make the
- second layer above the image 
- for give it opacity */
+
 
 .opacity-img{
 
@@ -114,7 +114,7 @@ main{
 
 .info-container >h1 span{
 
-    color:hsl(277, 64%, 61%) ;
+    color:var(--main-color) ;
 
 }
 
